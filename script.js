@@ -16,8 +16,29 @@ function resume(){
   }
 
 // Third-party library to disply GitHub Calender
-GitHubCalendar(".calendar", "Himanshuj0311", {
-    responsive: true,
-    global_stats: true,
-    tooltips: true
-  });
+// GitHubCalendar(".calendar", "Himanshuj0311", {
+//     responsive: true,
+//     global_stats: true,
+//     tooltips: true
+//   });
+
+GitHubCalendar(".calendar", "Himanshuj0311");
+            // // or enable responsive functionality
+            GitHubCalendar(".calendar", "Himanshuj0311", { responsive: true });
+            fetch("https://api.github.com/users/Himanshuj0311/events")
+            .then((response) => response.json())
+            .then((data) => {
+                const privateCommits = data.filter((event) => event.type === "PushEvent");
+
+                // Convert the commit data to the required format for GitHubCalendar library
+                const privateCommitData = privateCommits.map((commit) => ({
+                    date: commit.created_at,
+                    count: commit.payload.commits.length
+                }));
+
+                // Display the private repository commits on the calendar
+                GitHubCalendar(".calendar", "Himanshuj0311", { data: privateCommitData });
+            })
+            .catch((error) => {
+                console.error("Error fetching commit data:", error);
+            });
