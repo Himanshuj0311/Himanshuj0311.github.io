@@ -104,7 +104,7 @@
     #hamb{
         display: block;
         font-size: 20px;
-        color:black;
+        color:white;
     }
     #nav-cont{
         width:90%;
@@ -122,7 +122,7 @@
         width:50%;
         text-align: center;
         display:none;
-        background-color: white;
+        background-color: black;
     }
     #nav-name{
         font-size: 17px;
@@ -132,7 +132,7 @@
         font-size: 17px;
     }
     #navbar-menu>li{
-        border-bottom: 2px solid skyblue;
+        border-bottom: white;
         padding:15px 0;
     }
     .home-left{
