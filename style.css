@@ -12,6 +12,7 @@ html {
 
 body {
     width: 100%;
+    background-color: rgb(57, 54, 54);
 }
 
 li {
@@ -28,7 +29,7 @@ button:active {
 
 /* ------------------------------ Navbar section starts here------------------------ */
 #nav-menu {
-    background-color: #BBDEFB;
+    background-color: #111111;
     height: 70px;
     position: fixed;
     width: 100%;
@@ -56,7 +57,7 @@ button:active {
 }
 
 #nav-name>a {
-    color: black;
+    color: white;
 }
 
 #navbar-menu {
@@ -68,7 +69,7 @@ button:active {
 }
 
 #navbar-menu a {
-    color: black;
+    color: white;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -96,12 +97,12 @@ button:active {
 }
 
 #resume-link-1 {
-    color: #BBDEFB;
+    color: white;
 }
 
 /* ------------------------------ Home section starts here------------------------ */
 #home {
-    background-color: #BBDEFB;
+    background-color: #111111;
     padding: 100px 0;
 }
 
@@ -113,7 +114,7 @@ button:active {
 
 .home-left {
     width: 70%;
-    color: black;
+    color: white;
     padding-left: 10%;
     padding-top: 7%;
 }
@@ -145,19 +146,19 @@ button:active {
 }
 
 #resume-link-2 {
-    color: #BBDEFB;
+    color: white;
 }
 
 /* ------------------------------ About section starts here------------------------ */
 #about {
-    background-color: #BBDEFB;
+    background-color: #111111;
     padding: 70px 0;
 }
 
 #about>h1 {
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 
 .about-body {
@@ -209,7 +210,7 @@ button:active {
 
 /* ------------------------------ Skills section starts here------------------------ */
 #skills {
-    background-color: #BBDEFB;
+    background-color: #111111;
     padding: 75px 0;
     color: black;
 }
@@ -217,6 +218,7 @@ button:active {
 #skills>h1 {
     text-align: center;
     text-transform: uppercase;
+    color: white;
 }
 
 .skills-body {
@@ -258,8 +260,8 @@ button:active {
 /* ----------------------------- Projects section starts here---------------------- */
 
 #projects {
-    background-color: #BBDEFB;
-    color: black;
+    background-color: #111111;
+    color: white;
     padding: 75px 0;
 }
 
@@ -310,7 +312,7 @@ button:active {
     width: 49%;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: #BBDEFB;
+    background-color: white;
     padding: 5px;
     color: black;
     text-align: center;
@@ -373,9 +375,9 @@ button:active {
 
 /* ----------------------------- Contact section starts here---------------------- */
 #contact {
-    background-color: #BBDEFB;
+    background-color: #111111;
     padding: 75px 0;
-    color: black;
+    color: white;
 }
 
 #contact>h1 {
@@ -458,7 +460,7 @@ form .btn2 {
     border-radius: 5px;
     border-style: none;
     background-color: black;
-    color: #BBDEFB;
+    color: white;
     transition: transform .2s;
     
 
@@ -471,9 +473,9 @@ form .btn2:hover {
 
 /* ----------------------------- GitHib section starts here---------------------- */
 #github {
-    background-color: #BBDEFB;
+    background-color: #111111;
     padding: 10px 0;
-    color: black;
+    color: white;
 }
 
 #github>h1 {
@@ -521,8 +523,8 @@ form .btn2:hover {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background-color: #BBDEFB;
-    color: black;
+    background-color: #111111;
+    color: white;
     font-weight: 70;
 }
 
