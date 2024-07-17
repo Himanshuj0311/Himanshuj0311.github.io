@@ -57,7 +57,7 @@ hamburger.addEventListener("click", (e)=>{
 
 //Function for Resume to open on the next tab
 function resume(){
-    window.open("https://drive.google.com/file/d/1nJCxO2JwCVhpBm2bYvL7E61mFRJ9kojZ/view?usp=sharing","_blank")
+    window.open("https://drive.google.com/file/d/13btzQ-evuR2f0n8MfuJGIpej5SisFiMG/view","_blank")
   }
 
 // Third-party library to disply GitHub Calender
