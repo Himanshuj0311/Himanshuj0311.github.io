@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Himanshu Jian</title>
+    <title>Himanshu Jian | Portfolio</title>
     <link rel="icon" href="./images/IMG_8955.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
@@ -25,9 +25,9 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div data-aos="zoom-in" data-aos-duration="1000" id="nav-name">
-                <a href="#home">Himanshu Jain</a>
+                <a href="#home">{ <span>Himanshu Jain</span> }</a>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" id="navbar-menu">
+            <ul data-aos="zoom-in" data-aos-duration="1000" id="navbar-menu">
                 <li>
                     <a class="nav-link home" href="#home">Home</a>
                 </li>
@@ -43,14 +43,14 @@
                 <li>
                     <a class="nav-link contact" href="#contact">Contact</a>
                 </li>
-            </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" id="nav-download">
+            </ul>
+            <!-- <div data-aos="zoom-in" data-aos-duration="1000" id="nav-download">
                 <button id="resume-button-1" class="nav-link resume" onclick="resume()">
-                    <a href="./Himanshu Jain-Node JS Developer (1).pdf" id="resume-link-1" download="Himanshu Jain-Node JS Developer (1).pdf">
+                    <a href="./HimanshuJain_Resume.pdf" id="resume-link-1" download="HimanshuJain_Resume.pdf">
                         Resume <i class="fa fa-download"></i>
                     </a>
                 </button>
-            </div>
+            </div> -->
         </div>
     </div>
     <!------------------------------ Navbars ends here------------------------------>
@@ -60,24 +60,25 @@
     <div id="home">
         <div class="home-body">
             <div data-aos="fade-right" data-aos-duration="1000" class="home-left">
-                <!-- <h1>Hey 👋! </h1> -->
+                <h2>Hey 👋! </h2>
                 <br>
-                <h1>I'm <span style="color:#f59f59">Himanshu Jain</span>
-                    <br>
-                    <br>
-                    A Full Stack Web Developer specialized in Back-End Development.
+                <h1>I'm <span class="color-primary">Himanshu Jain</span>
                 </h1>
                 <br>
-                <button onclick="resume()" id="resume-button-2">
-                    <a id="resume-link-2" href="./Himanshu Jain-Node JS Developer (1).pdf" target="_blank"
-                        download="Himanshu Jain-Node JS Developer (1).pdf">
-                        Resume <i class="fa fa-download"></i>
+                <p class="home-left-summary">
+                    An Innovative Backend Developer dedicated to building robust, scalable, and efficient server-side solutions. Let's power the web with seamless functionality together!
+                </p>
+                <br>
+                <button class="button-resume" onclick="resume()">
+                    <a href="./himanshu_CV.pdf" target="_blank"
+                        download="HimanshuJain_Resume.pdf"> 
+                        <span class="button-content"><i class="fa fa-download"></i> Resume</span>
                     </a>
-                </button>
+                  </button>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" class="home-right">
                 <!-- <img src="./images/laptop wallpaper website.jpg" alt="wallpaper"/> -->
-                <img style="border-radius:150px;" class="home-img" src="./images/IMG_8955.jpg" alt="profile" />
+                <img style="border-radius:200px;" class="home-img" src="./images/IMG_8955.jpg" alt="profile" />
             </div>
         </div>
     </div>
@@ -96,10 +97,9 @@
             <div data-aos="fade-left" data-aos-duration="200" class="about-details">
                 <h2 id="user-detail-name">I'm Himanshu Jain a Full Stack Web Developer specialized in Node Backend
                     Development.</h2><br>
-                <h4 id="user-detail-intro">A self-motivated, hard-working, and ambitious Full-Stack Web Developer and
-                    a good learner with proficiency in JavaScript,ReactJS,NodeJS. Having a Problem-solving mindset,
-                    and 1200+ hrs of hands-on experience in developing fully functional E-commerce applications.
-                    Looking forward to working as a developer and competent employee in an exciting tech company.</h4>
+                <h4 id="user-detail-intro">I'm a passionate Backend Developer specializing in Node.js and Express.js. I focus on building scalable, high-performance server-side applications that power seamless digital experiences. With a strong understanding of APIs, databases, and backend architecture, I strive to create efficient and secure solutions.</h4>
+
+                  <h4>  I enjoy working with RESTful APIs, authentication systems, database management (MongoDB, PostgreSQL, MySQL), and cloud services, ensuring robust and well-structured backend systems. Constantly learning and improving, I aim to deliver optimized and maintainable code.</h4>
             </div>
         </div>
     </div>
@@ -175,7 +175,7 @@
                 <img class="skills-card-img" alt="GIT" src="./images/new.png" />
                 <h3 class="skills-card-name">Chakra UI</h3>
             </div>
-            <div class="skills-card">
+<!--             <div class="skills-card">
                 <img class="skills-card-img" alt="GIT" src="https://www.vectorlogo.zone/logos/nginx/nginx-ar21.svg" />
                 <h3 class="skills-card-name">NGINX</h3>
             </div>
@@ -187,7 +187,7 @@
                 <img class="skills-card-img" alt="TS"
                     src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" />
                 <h3 class="skills-card-name">AWS</h3>
-            </div>
+            </div> -->
             <div class="skills-card">
                 <img class="skills-card-img" alt="HTML"
                     src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" />
@@ -206,30 +206,43 @@
                 <img class="skills-card-img" alt="GH" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" />
                 <h3 class="skills-card-name">Github</h3>
             </div>
-            <div class="skills-card">
+<!--             <div class="skills-card">
                 <img class="skills-card-img" alt="GH" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg" />
                 <h3 class="skills-card-name">LINUX</h3>
-            </div>
+            </div> -->
         </div>
     </div>
     <!---------------------------- Skills section ends here--------------------------->
     <div id="skills">
         <h1 data-aos="fade-up" data-aos-duration="1000">Statistics</h1>
         <div class="skills-body-stat">
-            <div class="skills-card">
-                <div class="text">1200+</div>
-                <p>Hours of coding</p>
-            </div>
-            <div class="skills-card">
-                <!-- <i class="fas fa-chart-line"></i> -->
-                <div class="text">700+</div>
-                <p>DSA Problems</p>
-            </div>
-            <div class="skills-card">
-                <!-- <i class="fas fa-code"></i> -->
-                <div class="text">100+</div>
-                <p>Hours of soft skills</p>
-            </div>
+
+                <div class="skills-card">
+                    <div class="Skills-image-cont">
+                        <img src="./images/code.png" alt="CODING">
+                    </div>
+                    <div class="text">1200+</div>
+                    <p>Hours of coding</p>
+                </div>
+
+
+                <div class="skills-card">
+                    <div class="Skills-image-cont">
+                        <img src="./images/algorithm.png" alt="DSA">
+                    </div>
+                    <div class="text">700+</div>
+                    <p>DSA Problems</p>
+                </div>
+
+
+                <div class="skills-card">
+                    <div class="Skills-image-cont">
+                        <img src="./images/improve.png" alt="SOFT_SKILL">
+                    </div>
+                    <div class="text">100+</div>
+                    <p>Hours of soft skills</p>
+                </div>
+
         </div>
     </div>
 
@@ -402,7 +415,7 @@
     <!--------------------------- Projects section ends here-------------------------->
     <!--------------------------- GitHub section starts here------------------------->
 
-    <div id="github">
+    <!-- <div id="github">
         <h1 data-aos="fade-up" data-aos-duration="1000">GitHub Stats</h1>
         <div data-aos="zoom-in" data-aos-duration="1000" class="react-activity-calendar">
             <div class="calendar">
@@ -425,7 +438,7 @@
                     src="https://github-readme-streak-stats.herokuapp.com/?user=Himanshuj0311&" alt="Himanshuj0311" />
             </div>
         </div>
-    </div>
+    </div> -->
     <!------------------------- GitHub section ends here--------------------------->
     <!--------------------------- Contact section starts here------------------------->
 

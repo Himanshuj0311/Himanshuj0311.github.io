@@ -8,7 +8,7 @@
 //     }else{
 //         navbar_menu.style.display="none";
 //     }
-// })  
+// })
 
 // //Function for Resume to open on the next tab
 // function resume(){
@@ -43,22 +43,25 @@
 //                 console.error("Error fetching commit data:", error);
 //             });
 
-const hamburger=document.getElementById("hamb");
-const navbar_menu=document.getElementById("navbar-menu");
+const hamburger = document.getElementById("hamb");
+const navbar_menu = document.getElementById("navbar-menu");
 
 //Function for Hamburger navbar
-hamburger.addEventListener("click", (e)=>{
-    if(navbar_menu.style.display=="none"){
-        navbar_menu.style.display="block";
-    }else{
-        navbar_menu.style.display="none";
-    }
-})  
+hamburger.addEventListener("click", (e) => {
+  if (navbar_menu.style.display == "none") {
+    navbar_menu.style.display = "block";
+  } else {
+    navbar_menu.style.display = "none";
+  }
+});
 
 //Function for Resume to open on the next tab
-function resume(){
-    window.open("https://drive.google.com/file/d/1nJCxO2JwCVhpBm2bYvL7E61mFRJ9kojZ/view?usp=sharing","_blank")
-  }
+function resume() {
+  window.open(
+    "https://drive.google.com/file/d/18MzeDODpMo8a6mnJsZD71V_tKndfGgnf/view?usp=sharing",
+    "_blank"
+  );
+}
 
 // Third-party library to disply GitHub Calender
 // GitHubCalendar(".calendar", "shubhamthite09", {
