@@ -384,6 +384,8 @@ button:active {
   background-color: black;
   border-radius: 7px;
   transition: transform 0.2s;
+  min-height: 335px;
+  object-fit: cover;
 }
 
 .project-img:hover {
@@ -405,6 +407,7 @@ button:active {
   padding: 5px;
   color: black;
   text-align: center;
+  min-height: 335px;
 }
 
 .project-info > h3 {
